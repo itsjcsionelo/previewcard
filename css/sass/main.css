@@ -33,6 +33,33 @@ body h3 {
 
 .card {
   background-color: #1b1938;
-  border-radius: 0.5rem;
-  height: 50vh;
+  border-radius: 0.7rem;
+  box-shadow: 0 0.01rem 0.1rem #1b1938;
+  height: 55vh;
+  width: 77vw;
+  display: flex;
+}
+.card__image {
+  width: 85%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+.card__image::after {
+  content: "";
+  position: absolute;
+  background: #3d1358;
+  opacity: 0.5;
+  filter: contrast(500%);
+  filter: saturate(200%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+.card__image img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
