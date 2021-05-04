@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:400);
+
+@import './abstracts/variables';
+@import './abstracts/functions';
+@import './abstracts/mixins';
+
+@import './base/reset';
+@import './base/typography';
+
+@import './pages/home';

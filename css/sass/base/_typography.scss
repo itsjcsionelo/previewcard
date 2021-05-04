@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "Lexend Deca", sans-serif;
+
+    p {
+        color: c(main-paragraph);
+    }
+
+    h2,
+    h3 {
+        color: c(main-heading);
+    }
+}

@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:400);
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #090b1a;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+body p {
+  color: #ffffffbf;
+}
+body h2,
+body h3 {
+  color: #ffffff;
+}
+
+.card {
+  background-color: #1b1938;
+  border-radius: 0.5rem;
+  height: 50vh;
+}
