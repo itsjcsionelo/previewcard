@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- CodePen - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- CodePen - [Jc Sionelo](https://codepen.io/jcsionelo)
+- Frontend Mentor - [@itsjcsionelo](https://www.frontendmentor.io/profile/itsjcsionelo)
