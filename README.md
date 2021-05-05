@@ -31,14 +31,14 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- 7-1 SASS Architecture
+- Responsive UI
+- Clean Code
+- BEM Methodology
+- Fluid Typography
 
 ## Author
 
