@@ -19,6 +19,9 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-size: clamp(1.4rem, 3vw, 5rem);
+}
 @media (min-width: 768px) {
   body {
     font-size: clamp(2rem, 3.2vw, 5rem);

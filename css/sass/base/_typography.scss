@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    font-size: clamp(1.4rem, 3vw, 5rem);
 
     @include tablet {
         font-size: clamp(2rem, 3.2vw, 5rem);
