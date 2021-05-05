@@ -1,1 +1,11 @@
-//This file you will create your mixins inside of the project
+@mixin tablet {
+    @media (min-width: b(tablet)) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: b(desktop)) {
+        @content;
+    }
+}

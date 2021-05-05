@@ -1,35 +1,16 @@
 .card {
     background-color: c(card-primary);
-    border-radius: .70rem;
-    box-shadow: 0 .01rem .1rem c(card-primary);
-    height: 55vh;
-    width: 77vw;
-
+    width: 80vw;
+    height: 88vh;
+    border-radius: .8rem;
     display: flex;
+    flex-direction: column;
+    margin-bottom: clamp(2rem, 3vh, 5rem);
 
-    &__image {
-        width: 85%;
-        overflow: hidden;
-        position: relative;
-        border-radius: 0 .70rem .70rem 0;
-
-        &::after {
-            content: "";
-            position: absolute;
-            background: darken(c(accent), 40%);
-            opacity: 0.5;
-            filter: contrast(500%);
-            filter: saturate(200%);
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 0 .70rem .70rem 0;
-        }
-
-        img {
-            width: 100%;
-            object-fit: contain;
-        }
+    @include desktop {
+        width: 77vw;
+        height: 55vh;
+        margin-top: 5.6rem;
+        flex-direction: row;
     }
 }

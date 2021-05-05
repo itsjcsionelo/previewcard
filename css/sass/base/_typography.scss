@@ -3,15 +3,82 @@ html {
 }
 
 body {
-    font-size: 1.5rem;
-    font-family: "Lexend Deca", sans-serif;
+
+    @include tablet {
+        font-size: clamp(2rem, 3.2vw, 5rem);
+    }
+
+    @include desktop {
+        font-size: clamp(2.5rem, 1vw, 3rem);
+    }
 
     p {
         color: c(main-paragraph);
+        line-height: 1.7;
+        font-size: clamp(1.3rem, 2.5vw, 3rem);
+
+        @include desktop {
+            font-size: clamp(1.55rem, .5vw, 2rem);
+        }
+    }
+}
+
+.card__details--stat {
+
+    p {
+        color: c(stat-heading);
+        text-transform: uppercase;
+
+        @include desktop {
+            font-size: clamp(1.3rem, .5vw, 1.5rem);
+            font-family: "Lexend Deca", sans-serif;
+            letter-spacing: .09rem;
+        }
     }
 
-    h2,
-    h3 {
-        color: c(main-heading);
+    @include desktop {
+        h3 {
+            font-size: clamp(2.52rem, .5vw, 3rem);
+        }
     }
+}
+
+.author {
+    font-size: clamp(1.5rem, 2.5vw, 1.8rem);
+    color: white;
+}
+
+////////////////////////////////////////////////
+//MULTIPLES
+
+h2,
+h3 {
+    color: c(main-heading);
+}
+
+p,
+h2,
+.author,
+.card__details--stat {
+    text-align: center;
+}
+
+h2,
+p {
+    @include desktop {
+        text-align: left;
+    }
+}
+
+p,
+h2,
+h3,
+.author {
+    font-family: 'Inter', sans-serif;
+}
+
+h2 span,
+.author span {
+    font-weight: 700;
+    color: c(accent);
 }
