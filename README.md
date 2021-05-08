@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor | Stats Preview Card](https://www.frontendmentor.io/solutions/stats-preview-card-mobilefirst-flexbox-bem-71-sass-architecture-_wudbWpCf)
+- Solution URL: [Frontend Mentor | Stats Preview Card](https://www.frontendmentor.io/solutions/stats-preview-card-mobilefirst-flexbox-bem-71-sass-architecture-Nf1mtghb2)
 - Live Site URL: [GitHub Pages | Stats Preview Card](https://itsjcsionelo.github.io/previewcard/)
 
 ### Built with
